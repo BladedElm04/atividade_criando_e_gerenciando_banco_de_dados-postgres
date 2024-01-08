@@ -1,0 +1,2 @@
+INSERT INTO students ("name", "email", "module", "score", "active")
+VALUES ('Enzo', 'enzo@email.com', 'M3', 85, true), ('Valentina', 'valentina@email.com', 'M4', 97, true), ('Osvaldo', 'osvaldo@email.com', 'M5', 65, false) RETURNING *;
